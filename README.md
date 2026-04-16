@@ -31,6 +31,6 @@ http://localhost:8080/courses
 
 ## Author
 
-Built by Abhishek Veeramalla (@iam-veeramalla), with DevOps integration added for deployment and automation.
+Built by Abhishek Veeramalla [@iam-veeramalla], with DevOps integration added for deployment and automation.
 
 
