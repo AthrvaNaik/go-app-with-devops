@@ -1,19 +1,36 @@
 # Go Web Application
 
-This is a simple website written in Golang. It uses the `net/http` package to serve HTTP requests.
+A simple Go web project built by Abhishek Veermalla, extended with DevOps practices for Docker, Kubernetes, CI/CD, and GitHub Actions.
 
-## Running the server
+## What this project includes
 
-To run the server, execute the following command:
+- Golang web app using `net/http`
+- Dockerfile for containerization
+- Kubernetes manifests for Minikube deployment
+- GitHub Actions workflow for CI
+- Argo CD integration for continuous deployment
 
-```bash
+## Run locally
+
+```powershell
 go run main.go
 ```
 
-The server will start on port 8080. You can access it by navigating to `http://localhost:8080/courses` in your web browser.
+Then open:
 
-## Looks like this
+```text
+http://localhost:8080/courses
+```
 
-![Website](static/images/golang-website.png)
+## DevOps setup
+
+- Dockerized application
+- Kubernetes cluster deployment using Minikube
+- GitHub Actions for build and test automation
+- Argo CD for deploying changes to the cluster
+
+## Author
+
+Built by Abhishek Veermalla, with DevOps integration added for deployment and automation.
 
 
