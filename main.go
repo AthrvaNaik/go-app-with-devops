@@ -27,6 +27,9 @@ func contactPage(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 
+	log.Println("Starting server on 0.0.0.0:8080")
+
+	http.HandleFunc("/", homePage)
 	http.HandleFunc("/home", homePage)
 	http.HandleFunc("/courses", coursePage)
 	http.HandleFunc("/about", aboutPage)
@@ -34,6 +37,6 @@ func main() {
 
 	err := http.ListenAndServe("0.0.0.0:8080", nil)
 	if err != nil {
-		log.Fatal(err)
+		log.Fatal("Server failed:", err)
 	}
 }
